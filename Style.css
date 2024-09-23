@@ -1,0 +1,123 @@
+body{
+    background-image: url(images/beautiful-natural-clouds-sky.jpg);
+    background-size: cover;
+    
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    gap: 6px;
+    width: fit-content;
+    margin-top: 20px;
+}
+.search  input{
+
+padding: 8px;
+border-radius: 10px;
+outline: none;
+border-color: #5b548a;
+width: 250px;
+font-size: medium;
+
+
+}
+
+.search img{
+    height: 18px;
+    
+}
+.search .btn{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.weather{
+    display: flex;
+    justify-content: center;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.items .city{
+    font-size: 32px;
+    color: white;
+    font-style: italic;
+    font-family: Narrow;
+    margin-top: 20px;
+}
+.items img{
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+}
+.items .degree{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0;
+    color: white;
+    font-style: italic;
+}
+.values{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 500px;
+    
+}
+.humidity,.wind {
+    display: flex;
+    align-items: center;
+
+}
+.humidity .humidity-percent,.wind .speed{
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    color: bisque;
+}
+.humidity .text{
+    position: relative;
+    top: 20px;
+    font-size:20px;
+    right: 50px;
+    color: white;
+    font-family:  Geneva;
+    font-weight: bolder;
+}
+.wind .text{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    left: -130px;
+    color: white;
+    font-family:  Geneva;
+    font-weight: bolder;
+}
+.main{
+    display: none;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.welcome img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    
+}
